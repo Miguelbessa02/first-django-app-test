@@ -5,3 +5,6 @@ from django.shortcuts import render, HttpResponse
 def home(request):
     return HttpResponse("Hello World!")
 
+def pagina_inicial(request):
+    return render(request, 'dj/pagina_inicial.html')
+
