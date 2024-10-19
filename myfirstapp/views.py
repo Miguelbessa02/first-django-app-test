@@ -8,3 +8,7 @@ def home(request):
 def pagina_inicial(request):
     return render(request, 'dj/pagina_inicial.html')
 
+
+def pagina_inicial(request):
+    return render(request, 'dj/pagina_inicial.html')
+
